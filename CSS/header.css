@@ -1,0 +1,40 @@
+.header__container {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  margin: 0 auto;
+  max-height: 0;
+}
+
+.header__wrapper {
+  padding: 22px 70px;
+  height: 80px;
+  width: calc(100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 15px;
+  margin: 0 auto;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  z-index: 100;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header__logo {
+  margin-right: 20px;
+}
+
+.nav__comunication-block {
+  display: none;
+}

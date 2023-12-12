@@ -1,0 +1,129 @@
+.hero {
+  background-image: url("../img/cp-hero-background.png");
+  background-color: var(--color-Alto);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-bottom: 160px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  padding-top: 155px;
+  padding-left: 70px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.hero__section_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 41px;
+  overflow: visible;
+  max-width: 455px;
+}
+
+.hero__section_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 505px;
+  height: 496px;
+}
+
+.hero__section-image-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-image: url("../img/cp-hero-image-1.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: inherit;
+  height: inherit;
+}
+
+.hero__title {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-Fiord);
+  margin-bottom: 100px;
+  z-index: 500;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+.hero__button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 270px;
+  gap: 51px;
+}
+
+
+.hero__bottom {
+  background-image: url("../img/fig.svg");
+  background-position: center;
+  width: 100%;
+  min-height: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 16px;
+}
+
+.hero__ellipse_mini {
+  position: absolute;
+  width: 649px;
+  height: 649px;
+  top: -50px;
+  right: -50px;
+}
+
+.hero__ellipse_medium {
+  position: absolute;
+  width: 850px;
+  height: 850px;
+  top: -150px;
+  right: -150px;
+}
+
+.hero__ellipse_large {
+  position: absolute;
+  width: 1136px;
+  height: 1136px;
+  top: -155px;
+  right: -300px;
+}

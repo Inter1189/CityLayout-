@@ -1,0 +1,50 @@
+.folder-application {
+  padding: 111px 70px 100px 70px;
+  width: 100%;
+  min-height: 500px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#D9E9D7), to(#B3D3AE));
+  background: linear-gradient(180deg, #D9E9D7 0%, #B3D3AE 100%);
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  position: relative;
+}
+
+.folder-application__header {
+  padding: 30px 83px 0px 70px;
+  background-color: var(--color-Willow-Brook);
+  position: absolute;
+  left: 0;
+  top: -57px;
+}
+
+.folder-application__header::after,
+.folder-application__header::before,
+.folder-application__header-1::after,
+.folder-application__header-1::before {
+  bottom: 63px;
+}
+
+.folder-application__header::before {
+  right: -15px;
+}
+
+.folder-application__header::after {
+  right: -35px;
+}
+
+.folder-application__title {
+  margin-bottom: 0px;
+  line-height: 45px;
+  color: var(--color-Amulet);
+}
+
+.application-form__input-block {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.application-form__input-wrapper {
+  width: calc((100% - (30px))/2);
+}
