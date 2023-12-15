@@ -153,9 +153,11 @@
   }
 
   .folder-modal__title {
+    position: static;
     color: var(--color-Fiord);
     font-size: 65px;
     line-height: 65px;
+    max-width: 370px;
   }
 
   .folder-modal__text {

@@ -45,6 +45,11 @@
   margin-bottom: 40px;
 }
 
+.footer__logo-link {
+  display: block;
+  height: inherit;
+}
+
 .footer__description {
   color: var(--color-Mine-Shaft);
   font-size: 16px;

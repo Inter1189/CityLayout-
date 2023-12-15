@@ -40,11 +40,34 @@
 .connection__map-wrapper {
   border-radius: 15px;
   overflow: auto;
+  position: relative;
 }
+
 
 .connection__map {
   max-height: 370px;
   min-height: 370px;
   min-width: 730px;
   max-width: 730px;
+}
+
+.connection__map-point {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 238px;
+  left: 265px;
+  transition: transform .4s ease;
+}
+
+.connection__map-point:focus {
+  width: 30px;
+  height: 30px;
+  transform: translateY(-10px);
+}
+
+.connection__map-point:hover {
+  width: 30px;
+  height: 30px;
+  transform: translateY(-10px);
 }

@@ -178,16 +178,26 @@
   border-top-right-radius: 100px;
   border-top-left-radius: 100px;
   -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  opacity: 0;
+  transition: all .5s ease;
 }
 
 .service-item__cart:hover > .service-item__title {
   visibility: hidden;
 }
 
+.service-item__button:focus {
+  opacity: 1;
+  transform: translateY(-210px);
+}
+
+.service-item__button:focus + .service-item__cart {
+  background-color: var(--color-Blue-Ribbon);
+}
+
 .service-item__cart:hover > .service-item__button {
-  -webkit-transform: translateY(-210px);
-          transform: translateY(-210px);
+  opacity: 1;
+  transform: translateY(-210px);
 }
 
 .service-item__cart:hover {

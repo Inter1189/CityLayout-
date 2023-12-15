@@ -1,3 +1,9 @@
+@media (max-width: 1260px) {
+  .nav__contact-item {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
 
   header {
@@ -11,10 +17,6 @@
 
   footer {
     padding: 0px 25px;
-  }
-
-  .nav__contact-item {
-    display: none;
   }
 
   .hero__section_image {
@@ -620,6 +622,15 @@
   .form__checkbox-wrapper {
     margin-bottom: 0px;
 }
+
+  .modal__close-btn {
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+  .header__wrapper {
+    z-index: 5000;
+}
 }
 
 @media (max-width: 576px) {
@@ -1143,12 +1154,8 @@
             align-items: start;
   }
 
-  .modal__close-btn {
-    margin-left: auto;
-    margin-bottom: 50px;
+  .connection__map-point {
+    top: 177px;
   }
 
-  .header__wrapper {
-    z-index: 5000;
-  }
 }
