@@ -26,7 +26,7 @@
             align-items: center;
   }
 
-  .hero__section-image-wrapper {
+  .hero__image-wrapper {
     background-position: center;
     background-size: contain;
     width: 355px;
@@ -37,21 +37,21 @@
     display: none;
   }
 
-  .hero__ellipse_large {
+  .hero__image-large {
     max-width: 650px;
     height: 650px;
-    top: -35px;
+    top: -75px;
     right: -130px;
   }
 
-  .hero__ellipse_medium {
+  .hero__image-medium {
     max-width: 540px;
     height: 540px;
     top: -60px;
     right: -75px;
   }
 
-  .hero__ellipse_mini {
+  .hero__image-mini {
     max-width: 440px;
     height: 440px;
     top: -17px;
@@ -145,28 +145,28 @@
             align-items: center;
   }
 
-  .hero__section-image-wrapper {
+  .hero__image-wrapper {
     background-position: center;
     background-size: contain;
     width: 305px;
     height: 296px;
   }
 
-  .hero__ellipse_large {
+  .hero__image-large {
     max-width: 650px;
     height: 650px;
-    top: -75px;
+    top: -115px;
     right: -170px;
   }
 
-  .hero__ellipse_medium {
+  .hero__image-medium {
     max-width: 540px;
     height: 540px;
     top: -110px;
     right: -110px;
   }
 
-  .hero__ellipse_mini {
+  .hero__image-mini {
     max-width: 440px;
     height: 440px;
     top: -55px;
@@ -274,6 +274,10 @@
   .footer-button-up {
     display: none;
   }
+
+  .folder-modal__title {
+    max-height: 80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -291,8 +295,8 @@
     padding: 0px 0px;
   }
 
-  .service-folder,
-  .trust-folder {
+  .folder-service,
+  .folder-trust {
     padding-left: 35px;
     padding-right: 35px;
   }
@@ -374,23 +378,23 @@
             align-items: center;
   }
 
-  .hero__section-image-wrapper {
+  .hero__image-wrapper {
     background-position: center;
     background-size: contain;
     width: 305px;
     height: 296px;
   }
 
-  .hero__ellipse_mini {
+  .hero__image-mini {
     top: -51px;
   }
 
-  .hero__ellipse_medium {
+  .hero__image-medium {
     top: -100px;
   }
 
-  .hero__ellipse_large {
-    top: -66px;
+  .hero__image-large {
+    top: -120px;
     right: -165px;
   }
 
@@ -631,6 +635,16 @@
   .header__wrapper {
     z-index: 5000;
 }
+
+.info__section-title,
+.folder-service__title,
+.folder-trust__title,
+.portfolio__section-title,
+.folder-application__title,
+.folder-connection__title {
+  max-width: 355px;
+}
+
 }
 
 @media (max-width: 576px) {
@@ -722,31 +736,31 @@
             align-items: center;
   }
 
-  .hero__section-image-wrapper {
+  .hero__image-wrapper {
     background-position: center;
     background-size: contain;
     width: 235px;
     height: 230px;
   }
 
-  .hero__ellipse_mini {
+  .hero__image-mini {
     max-width: 253px;
     height: 253px;
     top: -5px;
     right: -5px;
   }
 
-  .hero__ellipse_medium {
+  .hero__image-medium {
     max-width: 330px;
     height: 330px;
     top: -40px;
     right: -43px;
   }
 
-  .hero__ellipse_large {
+  .hero__image-large {
     max-width: 440px;
     height: 440px;
-    top: -43px;
+    top: -65px;
     right: -100px;
 }
 
@@ -839,7 +853,7 @@
     margin: 0 auto;
   }
 
-  .service-folder {
+  .folder-service {
     padding: 36px 0px 40px 0px;
     min-height: 600px;
   }
@@ -880,7 +894,7 @@
     margin-bottom: 70px;
   }
 
-  .trust-folder {
+  .folder-trust {
     padding: 40px 0px 20px 0px;
   }
 
@@ -918,12 +932,8 @@
   }
 
   .trust-item__cart {
-    padding: 40px 45px 40px 45px;
+    background-size: 190px 80px;
     min-height: 120px;
-  }
-
-  .trust-item__cart_correct {
-    padding: 10px 45px 10px 45px;
   }
 
   .folder-portfolio {
@@ -1072,6 +1082,10 @@
     min-height: 280px;
   }
 
+  .connection__map-wrapper {
+    overflow: auto;
+  }
+
   .folder-connection {
     padding: 0px 20px;
   }
@@ -1157,5 +1171,31 @@
   .connection__map-point {
     top: 177px;
   }
+
+.info__section-title,
+.folder-service__title {
+  max-width: 230px;
+  max-height: 30px;
+}
+
+.folder-connection__title {
+  max-width: 230px;
+  max-height: 40px;
+}
+
+.folder-application__title {
+  max-width: 205px;
+  max-height: 65px;
+}
+
+.portfolio__section-title {
+  max-width: 230px;
+  max-height: 59px;
+}
+
+.folder-trust__title {
+  max-width: 275px;
+  max-height: 30px;
+}
 
 }

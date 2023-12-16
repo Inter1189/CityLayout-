@@ -16,6 +16,11 @@
 .folder-connection__title {
   line-height: 45px;
   margin-bottom: 30px;
+  display: block;
+  max-width: 260px;
+  max-height: 45px;
+  overflow: hidden;
+
 }
 
 .contact {
@@ -39,7 +44,7 @@
 
 .connection__map-wrapper {
   border-radius: 15px;
-  overflow: auto;
+  overflow: hidden;
   position: relative;
 }
 
@@ -57,17 +62,22 @@
   position: absolute;
   top: 238px;
   left: 265px;
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: -webkit-transform .4s ease;
   transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
 }
 
 .connection__map-point:focus {
   width: 30px;
   height: 30px;
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 .connection__map-point:hover {
   width: 30px;
   height: 30px;
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }

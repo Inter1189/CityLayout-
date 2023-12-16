@@ -17,6 +17,8 @@
   left: 0;
   top: -61px;
   padding: 30px 100px 0px 70px;
+  max-width: 1000px;
+  max-height: 75px;
 }
 
 .folder-info__header::after,
@@ -34,7 +36,11 @@
   right: -35px;
 }
 
-.folder-info__title {
+.info__section-title {
+  display: block;
+  max-width: 450px;
+  max-height: 75px;
+  overflow: hidden;
   margin-bottom: 8px;
 }
 
@@ -54,13 +60,15 @@
   background-image: url("../img/info-folder-image.png");
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
   max-height: 360px;
   min-height: 360px;
   border-radius: 20px;
 }
 
 .info__folder-button {
+  background-image: url(../img/cp-service-item-svg-arrow-down.svg);
+  background-position: center;
+  background-size: auto;
   position: absolute;
   bottom: -25px;
   left: 0;
@@ -101,6 +109,24 @@
   width: 63px;
   height: 63px;
   margin-bottom: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantage-item__image-waranty {
+  background-image: url("../img/info-item-icon-1.svg");
+}
+
+.advantage-item__image-material {
+  background-image: url("../img/info-item-icon-2.svg");
+}
+
+.advantage-item__image-personal {
+  background-image: url("../img/info-item-icon-3.svg");
+}
+
+.advantage-item__image-color {
+  background-image: url("../img/info-item-icon-4.svg");
 }
 
 .advantage-item__description {

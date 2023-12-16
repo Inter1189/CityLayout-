@@ -36,6 +36,10 @@
   margin-bottom: 0px;
   line-height: 45px;
   color: var(--color-Amulet);
+  display: block;
+  max-width: 450px;
+  max-height: 90px;
+  overflow: hidden;
 }
 
 .application-form__input-block {

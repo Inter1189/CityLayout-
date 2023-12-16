@@ -23,7 +23,7 @@
 .folder-portfolio__header::before,
 .folder-portfolio__header-1::after,
 .folder-portfolio__header-1::before {
-  bottom: 47px;
+  bottom: 46px;
 }
 
 .folder-portfolio__header::before {
@@ -32,6 +32,13 @@
 
 .folder-portfolio__header::after {
   right: -35px;
+}
+
+.portfolio__section-title {
+  display: block;
+  max-width: 450px;
+  max-height: 77px;
+  overflow: hidden;
 }
 
 .folder-portfolio__title {
@@ -77,6 +84,9 @@
 }
 
 .portfolio__folder-button {
+  background-image: url(../img/cp-service-item-svg-arrow-down.svg);
+  background-position: center;
+  background-size: auto;
   position: absolute;
   bottom: -25px;
   left: 0;

@@ -51,24 +51,6 @@
   height: 496px;
 }
 
-.hero__section-image-wrapper {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  background-image: url("../img/cp-hero-image-1.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: auto;
-  width: inherit;
-  height: inherit;
-}
-
 .hero__title {
   font-size: 50px;
   font-weight: 700;
@@ -104,7 +86,25 @@
   font-size: 16px;
 }
 
-.hero__ellipse_mini {
+.hero__image-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: inherit;
+  height: inherit;
+  z-index: 50;
+}
+
+.hero__image-mini {
+  background-image: url("../img/cp-header-ellipse-mini.svg");
+  background-position: center;
+  background-size: contain;
   position: absolute;
   width: 649px;
   height: 649px;
@@ -112,7 +112,10 @@
   right: -50px;
 }
 
-.hero__ellipse_medium {
+.hero__image-medium {
+  background-image: url("../img/cp-hero-ellipse-medium.svg");
+  background-position: center;
+  background-size: contain;
   position: absolute;
   width: 850px;
   height: 850px;
@@ -120,10 +123,22 @@
   right: -150px;
 }
 
-.hero__ellipse_large {
+.hero__image-large {
+  background-image: url("../img/cp-hero-ellipse-large.svg");
+  background-position: center;
+  background-size: contain;
   position: absolute;
   width: 1136px;
   height: 1136px;
-  top: -155px;
+  top: -225px;
   right: -300px;
+}
+
+.hero__image-content {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: inherit;
+  height: inherit;
+  background-image: url("../img/cp-hero-image-2.png");
 }
